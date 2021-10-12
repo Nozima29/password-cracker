@@ -14,7 +14,7 @@ bool check_guess(char *guess, char *hash, char *user)
 {
     size_t i;
     unsigned char *out;
-    unsigned char salt_value[] = {'S', 'K', 'K', 'U', ' ', 's', 'e', 'c', 'l', 'a', 'b'};
+    unsigned char salt_value[] = {'s', 'a', 'l', 't'};
     out = (unsigned char *)malloc(sizeof(unsigned char) * KEK_KEY_LEN);
     char str[32];
     char *pout = str;
