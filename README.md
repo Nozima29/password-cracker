@@ -1,7 +1,7 @@
 # password-cracker
 PBKDF2 hashed passwords cracking algorithm
 
-C program with dictionary attack based pasword cracking approach for known salt value.
+C program with dictionary attack based password cracking approach for known salt value.
 
 Installing openSSL library for cryptographical algorithms:
 
